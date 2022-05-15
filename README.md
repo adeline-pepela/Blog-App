@@ -1,19 +1,8 @@
 # D-Blog
 ## Author
 
-[Owiti-Charles](https://github.com/Owiti-Charles)
+[Adeline Makokha](https://github.com/Blog-App)
 
-# Description
-This  is a flask application that allows writers to post blogs, edit and delite blogs. It also allows users who have signed up to comment on the blogs that has been posted by a writer. It also allows a person to subscribed to recieve email everytime a new blog is posted by a writer.
-
-## Live Link
-[View Site](https://mikeydblog.herokuapp.com)
-
-## Screenshots
-
-<img src="https://raw.githubusercontent.com/Owiti-Charles/D-Blog/master/app/static/photos/homepage.png" width="900px" height="440px">
-<img src="https://raw.githubusercontent.com/Owiti-Charles/D-Blog/master/app/static/photos/profile.png" width="900px" height="440px">
-<img src="https://raw.githubusercontent.com/Owiti-Charles/D-Blog/master/app/static/photos/comment.png" width="900px" height="440px">
 
 
 
@@ -45,7 +34,7 @@ To get the code..
 
 1. Cloning the repository:
   ```bash
-  https://github.com/Owiti-Charles/D-Blog.git
+  https://github.com/adeline-pepela/D-Blog.git
   ```
 2. Move to the folder and install requirements
   ```bash
@@ -69,7 +58,7 @@ Open the application on your browser `127.0.0.1:5000`.
 
 ## Technology used
 
-* [Python3.6](https://www.python.org/)
+* [Python3.8](https://www.python.org/)
 * [Flask](http://flask.pocoo.org/)
 * [Heroku](https://heroku.com)
 
@@ -79,8 +68,10 @@ Open the application on your browser `127.0.0.1:5000`.
 
 ## Contact Information 
 
-If you have any question or contributions, please email me at [mikeycharlesm7@gmail.com]
+If you have any question or contributions, please email me at [adelinemakokha@gmail.com]
 
 ## License
 * *MIT License:*
-* Copyright (c) 2019 **Owiti Charles**
+* Copyright (c) 2022
+
+ **Adeline Makokha**
