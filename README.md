@@ -13,6 +13,7 @@
 * A user sees random quotes on the site
 * A writer can create a blog from the application and update or delete blogs I have created.
 
+
 ## BDD
 | Behaviour | Input | Output |
 | :---------------- | :---------------: | ------------------: |
