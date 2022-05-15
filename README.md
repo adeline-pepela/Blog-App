@@ -4,8 +4,6 @@
 [Adeline Makokha](https://github.com/Blog-App)
 
 
-
-
 ## User Story
 
 * A user can view the most recent posts.
