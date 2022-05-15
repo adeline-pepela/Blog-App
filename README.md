@@ -1,4 +1,4 @@
-# D-Blog
+# Blog-App
 ## Author
 
 [Adeline Makokha](https://github.com/Blog-App)
