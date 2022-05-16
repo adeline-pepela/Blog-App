@@ -34,7 +34,7 @@ To get the code..
 
 1. Cloning the repository:
   ```bash
-  https://github.com/adeline-pepela/D-Blog.git
+  https://github.com/adeline-pepela/Blog-App.git
   ```
 2. Move to the folder and install requirements
   ```bash
