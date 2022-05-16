@@ -1,20 +1,20 @@
 from flask_wtf import FlaskForm
 from wtforms import StringField,PasswordField,SubmitField,BooleanField
-from wtforms.validators import Required,Email,EqualTo, Length
+from wtforms.validators import DataRequired,Email,EqualTo, Length
 from wtforms import ValidationError
 from ..models import User
 
 class LoginForm(FlaskForm):
-    username = StringField('Username',validators=[Required()])
-    password = PasswordField('Password',validators=[Required()])
+    username = StringField('Username',validators=[DataRequired()])
+    password = PasswordField('Password',validators=[DataRequired()])
     remember = BooleanField('Remember Me!')
     submit = SubmitField('Login')
 
 class RegForm(FlaskForm):
-    username = StringField('Enter Your Username', validators=[Required(), Length(min=4, max=20)])
-    email = StringField('Email Address', validators=[Required(),Email()])
-    password = PasswordField('Password',validators = [Required(), EqualTo('password_confirm',message = 'Passwords must match')])
-    password_confirm = PasswordField('Confirm Passwords',validators = [Required()])
+    username = StringField('Enter Your Username', validators=[DataRequired(), Length(min=4, max=20)])
+    email = StringField('Email Address', validators=[DataRequired(),Email()])
+    password = PasswordField('Password',validators = [DataRequired(), EqualTo('password_confirm',message = 'Passwords must match')])
+    password_confirm = PasswordField('Confirm Passwords',validators = [DataRequired()])
     submit = SubmitField('Sign Up')
 
     def validate_email(self,data_field):
